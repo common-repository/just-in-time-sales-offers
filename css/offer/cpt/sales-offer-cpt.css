@@ -1,0 +1,550 @@
+/*------------------------------------------*/
+/*----- Offer Editor Shortcodes Legend -----*/
+/*------------------------------------------*/
+#jitso-show-shortcodes-legend {
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#jitso-content-after-editor {
+    display: none;
+    background-color: #E5E5E5;
+    border: 1px solid #D2D2D2;
+    padding: 2px 12px;
+    margin-top: 10px;
+}
+#jitso-hide-shortcodes-legend {
+    cursor: pointer;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+
+
+
+/*-----------------------------*/
+/*----- Sales Offer Pages -----*/
+/*-----------------------------*/
+
+#sales-offer-pages-controls {
+    margin-bottom: 20px;
+}
+#sales-offer-pages-controls #sales-offer-page {
+    display: none;
+}
+#sales-offer-pages-controls #sales-offer-page-container {
+    display: inline-block;
+}
+#sales-offer-pages-controls #sales-offer-page-type.err,
+#sales-offer-pages-controls #sales-offer-page.err {
+    border: 1px solid #FFA1A1;
+    background-color: #FFE2E2;
+}
+#sales-offer-pages-controls .spinner {
+    display: inline-block;
+    float: none;
+    visibility: hidden;
+    margin-top: 0;
+}
+#sales-offer-pages-controls .command-button-controls {
+    margin-top: 10px;
+}
+#sales-offer-pages-controls .command-button-controls .spinner {
+    margin-top: 4px;
+}
+#sales-offer-pages-table tbody tr td.controls .edit_offer_page {
+    color: green;
+    cursor: pointer;
+}
+#sales-offer-pages-table tbody tr td.controls .delete_offer_page {
+    color: red;
+    cursor: pointer;
+}
+#sales-offer-pages-controls .command-button-controls.editing_mode #add-sales-offer-page-btn {
+    display: none;
+}
+#sales-offer-pages-controls .command-button-controls #cancel-edit-sales-offer-page-btn,
+#sales-offer-pages-controls .command-button-controls #edit-sales-offer-page-btn {
+    display: none;
+}
+#sales-offer-pages-controls .command-button-controls.editing_mode #cancel-edit-sales-offer-page-btn,
+#sales-offer-pages-controls .command-button-controls.editing_mode #edit-sales-offer-page-btn {
+    display: inline-block;
+}
+#sales-offer-pages-table thead tr th.page_type,
+#sales-offer-pages-table thead tr th.page,
+#sales-offer-pages-table tbody tr td.typ_text,
+#sales-offer-pages-table tbody tr td.id_text {
+    width: 45%;
+}
+#sales-offer-pages-table thead tr th.page_controls,
+#sales-offer-pages-table tbody tr td.controls {
+    width: 10%;
+    text-align: right;
+}
+#sales-offer-pages-table tbody tr:hover {
+    background-color: #E3F2F8;
+}
+#sales-offer-pages-table tbody tr.editing_mode:hover,
+#sales-offer-pages-table tbody tr.editing_mode {
+    background-color: #FFEED9;
+}
+
+
+
+
+/*----------------------------------*/
+/*----- Sales Offer Conditions -----*/
+/*----------------------------------*/
+
+#sales-offer-conditions-meta-box #offer-conditions {
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+/*----- Offer Condition Group Logic -----*/
+
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group-logic {
+    padding: 20px;
+    text-align: center;
+}
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group-logic .controls {
+    display: inline-block;
+}
+
+/*----- Offer Condition Group -----*/
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group {
+    background-color: #e9e9e9;
+    padding: 10px;
+}
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-group-actions {
+    text-align: right;
+}
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-group-actions .remove-condition-group {
+    color: red;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    top: -5px;
+}
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group .empty-condition-group-container .empty-condition-group-message {
+    text-align: center;
+    margin: 0;
+}
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls {
+    text-align: center;
+    padding: 15px 10px 5px 10px;
+}
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls .controls {
+    display: inline-block;
+}
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls .controls .show-add-condition-controls {
+    display: inline-block;
+}
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls.adding-condition-mode .controls .show-add-condition-controls {
+    display: none;
+}
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls .controls .condition-logic,
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls .controls .condition-types,
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls .controls .add-condition,
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls .controls .hide-add-condition-controls {
+    display: none;
+}
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls.adding-condition-mode .controls .condition-logic,
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls.adding-condition-mode .controls .condition-types,
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls.adding-condition-mode .controls .add-condition,
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls.adding-condition-mode .controls .hide-add-condition-controls {
+    display: inline-block;
+}
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls .controls .spinner {
+    display: none;
+    visibility: hidden;
+}
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls.processing-mode .controls .spinner {
+    display: inline-block;
+    visibility: visible;
+}
+
+/*----- Offer Condition -----*/
+.offer-condition-logic {
+    text-align: center;
+    padding: 15px;
+}
+.offer-condition-logic .controls {
+    display: inline-block;
+}
+.offer-condition[data-condition-type="product-quantity"] {
+    background-color: #F3F3F3;
+    padding: 10px;
+}
+.offer-condition[data-condition-type="product-quantity"] .offer-condition-actions {
+    text-align: right;
+}
+.offer-condition[data-condition-type="product-quantity"] .offer-condition-actions .remove-condition {
+    color: red;
+    cursor: pointer;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields {
+    margin-bottom: 15px;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .field-set {
+    float: left;
+    margin-right: 10px;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .field-set .product-in-cart-quantity {
+    width: 90px;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .field-set.product-in-cart-quantity-field-set {
+    margin-right: 5px;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .field-set.button-field-set {
+    margin-right: 0;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .field-set label {
+    display: block;
+    margin-bottom: 2px;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .field-set .additional-product-data {
+    margin-top: 10px;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .field-set.button-field-set {
+    padding-top: 18px;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .field-set.button-field-set .spinner {
+    display: none;
+    visibility: hidden;
+    margin-right: 0;
+}
+.offer-condition[data-condition-type="product-quantity"].processing-mode .fields .field-set.button-field-set .spinner {
+    display: inline-block;
+    visibility: visible;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .button-field-set .add-product-in-cart-btn {
+    display: inline-block;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .button-field-set .edit-product-in-cart-btn,
+.offer-condition[data-condition-type="product-quantity"] .fields .button-field-set .cancel-edit-product-in-cart-btn {
+    display: none;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .button-field-set.edit-mode .add-product-in-cart-btn {
+    display: none;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .button-field-set.edit-mode .edit-product-in-cart-btn,
+.offer-condition[data-condition-type="product-quantity"] .fields .button-field-set.edit-mode .cancel-edit-product-in-cart-btn {
+    display: inline-block;
+}
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table thead tr th.product-heading,
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table thead tr th.product-quantity-condition-heading,
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tbody tr th.product-quantity-heading,
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tbody tr th.product,
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tbody tr th.product-quantity-condition,
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tbody tr th.product-quantity {
+    width: 30%;
+}
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table thead tr th.controls-heading,
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tbody tr td.row-controls {
+    width: 10%;
+    text-align: right;
+}
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tbody tr td.row-controls .edit-product {
+    color: green;
+    display: inline-block;
+    cursor: pointer;
+}
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tbody tr td.row-controls .delete-product {
+    color: red;
+    display: inline-block;
+    cursor: pointer;
+}
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tbody tr:hover {
+    background-color: #E3F2F8;
+}
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table.processing-mode tr td.row-controls .edit-product,
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table.processing-mode tr td.row-controls .delete-product {
+    visibility: hidden;
+}
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tbody tr.processing-mode:hover,
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tr.processing-mode {
+    background-color: #FFEED9;
+}
+
+/*----- No Offer Condition -----*/
+#sales-offer-conditions-meta-box #offer-conditions #no-offer-condition-container {
+    text-align: center;
+    padding: 10px;
+}
+#sales-offer-conditions-meta-box #offer-conditions #no-offer-condition-container #no-condition-message {
+    margin: 0;
+}
+
+/*----- Add Offer Condition Group Controls -----*/
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group-controls {
+    display: block;
+    clear: both;
+    text-align: center;
+    padding: 20px 10px 5px 10px;
+}
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group-controls .controls {
+    display: inline-block;
+    text-align: left;
+}
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group-controls .controls .condition-group-logic {
+    display: none;
+}
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group-controls.show-condition-group-logic .controls .condition-group-logic {
+    display: inline-block;
+}
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group-controls .controls .spinner {
+    display: none;
+    visibility: hidden;
+}
+#sales-offer-conditions-meta-box #offer-conditions .offer-condition-group-controls.processing-mode .controls .spinner {
+    display: inline-block;
+    visibility: visible;
+}
+
+/*----- Add Offer Condition Group Controls -----*/
+#offer-condition-general-controls .spinner {
+    display: none;
+    visibility: hidden;
+    float: none;
+}
+#offer-condition-general-controls.processing-mode .spinner {
+    display: inline-block;
+    visibility: visible;
+}
+
+
+
+
+/*--------------------------------------*/
+/*----- Sales Offer Accept Actions -----*/
+/*--------------------------------------*/
+
+#add-offer-action-controls #add-accept-offer-action-btn,
+#add-offer-action-controls #save-accept-offer-actions-btn {
+    display: inline-block;
+}
+#add-offer-action-controls.adding-action-mode #add-accept-offer-action-btn,
+#add-offer-action-controls.adding-action-mode #save-accept-offer-actions-btn {
+    display: none;
+}
+#add-offer-action-controls #accept-offer-action-types,
+#add-offer-action-controls #add-action-btn,
+#add-offer-action-controls #cancel-add-action-btn {
+    display: none;
+}
+#add-offer-action-controls.adding-action-mode #accept-offer-action-types,
+#add-offer-action-controls.adding-action-mode #add-action-btn,
+#add-offer-action-controls.adding-action-mode #cancel-add-action-btn {
+    display: inline-block;
+}
+#add-offer-action-controls .spinner {
+    display: inline-block;
+    float: none;
+    visibility: hidden;
+    margin-top: -4px;
+}
+#accept-offer-actions .accept-offer-action header p {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+#accept-offer-actions .accept-offer-action {
+    margin-bottom: 20px;
+    background-color: #F6F6F6;
+    padding: 10px;
+}
+#accept-offer-actions .accept-offer-action:nth-child(2n+2) {
+    background-color: #E8E8E8;
+}
+
+
+/*----- Add Products To Cart -----*/
+
+#add-products-to-cart-action-container .action-controls {
+    text-align: right;
+}
+#add-products-to-cart-action-container .action-controls .remove-action {
+    color: red;
+    cursor: pointer;
+}
+#add-products-to-cart-action-container .fields {
+    margin-bottom: 15px;
+}
+#add-products-to-cart-action-container .fields .field-set {
+    float: left;
+    margin-right: 15px;
+}
+#add-products-to-cart-action-container .fields .field-set #add-products-to-cart-quantity {
+    width: 120px;
+}
+#add-products-to-cart-action-container .fields .field-set label {
+    display: block;
+    margin-bottom: 2px;
+}
+#add-products-to-cart-action-container .fields .field-set label[ for = "add-products-to-cart-filter-variations" ] {
+    margin-top: 10px;
+}
+#add-products-to-cart-action-container .fields .field-set.button-field-set {
+    padding-top: 18px;
+}
+#add-products-to-cart-action-container .fields .field-set.button-field-set .spinner {
+    display: inline-block;
+    float: none;
+    visibility: hidden;
+}
+#add-products-to-cart-action-container .fields .button-field-set #add-product-to-cart-btn {
+    display: inline-block;
+}
+#add-products-to-cart-action-container .fields .button-field-set #add-product-to-cart-edit-button,
+#add-products-to-cart-action-container .fields .button-field-set #cancel-add-product-cart-edit-button {
+    display: none;
+}
+#add-products-to-cart-action-container .fields .button-field-set.edit-mode #add-product-to-cart-btn {
+    display: none;
+}
+#add-products-to-cart-action-container .fields .button-field-set.edit-mode #add-product-to-cart-edit-button,
+#add-products-to-cart-action-container .fields .button-field-set.edit-mode #cancel-add-product-cart-edit-button {
+    display: inline-block;
+}
+#add-products-to-cart-action-container #add-products-to-cart-table thead tr th.product-heading,
+#add-products-to-cart-action-container #add-products-to-cart-table thead tr th.quantity-heading,
+#add-products-to-cart-action-container #add-products-to-cart-table tbody tr td.product-text
+#add-products-to-cart-action-container #add-products-to-cart-table tbody tr td.product-quantity {
+    width: 45%;
+}
+#add-products-to-cart-action-container #add-products-to-cart-table thead tr th.controls-heading,
+#add-products-to-cart-action-container #add-products-to-cart-table tbody tr td.row-controls {
+    width: 10%;
+    text-align: right;
+}
+#add-products-to-cart-action-container #add-products-to-cart-table tbody tr td.row-controls .edit-product {
+    color: green;
+    display: inline-block;
+    cursor: pointer;
+}
+#add-products-to-cart-action-container #add-products-to-cart-table tbody tr td.row-controls .delete-product {
+    color: red;
+    display: inline-block;
+    cursor: pointer;
+}
+#add-products-to-cart-action-container #add-products-to-cart-table.processing_mode tr td.row-controls .edit-product,
+#add-products-to-cart-action-container #add-products-to-cart-table.processing_mode tr td.row-controls .delete-product {
+    visibility: hidden;
+}
+#add-products-to-cart-action-container #add-products-to-cart-table tbody tr:hover {
+    background-color: #E3F2F8;
+}
+#add-products-to-cart-action-container #add-products-to-cart-table tbody tr:hover.processing,
+#add-products-to-cart-action-container #add-products-to-cart-table tbody tr.processing {
+    background-color: #FFEED9;
+}
+
+/*----- Apply Coupons To Cart -----*/
+
+#apply-coupons-to-cart-action-container .action-controls {
+    text-align: right;
+}
+#apply-coupons-to-cart-action-container .action-controls .remove-action {
+    color: red;
+    cursor: pointer;
+}
+#apply-coupons-to-cart-action-container .fields {
+    margin-bottom: 15px;
+}
+#apply-coupons-to-cart-action-container .fields .field-set {
+    float: left;
+    margin-right: 15px;
+}
+#apply-coupons-to-cart-action-container .fields .field-set label {
+    display: block;
+    margin-bottom: 2px;
+}
+#apply-coupons-to-cart-action-container .fields .field-set.button-field-set {
+    padding-top: 18px;
+}
+#apply-coupons-to-cart-action-container .fields .field-set.button-field-set .spinner {
+    display: inline-block;
+    float: none;
+    visibility: hidden;
+}
+#apply-coupons-to-cart-action-container .fields .button-field-set #add-coupon-to-be-applied-to-cart-btn {
+    display: inline-block;
+}
+#apply-coupons-to-cart-action-container .fields .button-field-set #edit-coupon-to-be-applied-to-cart-btn,
+#apply-coupons-to-cart-action-container .fields .button-field-set #cancel-edit-coupon-to-be-applied-to-cart-btn {
+    display: none;
+}
+#apply-coupons-to-cart-action-container .fields .button-field-set.edit-mode #add-coupon-to-be-applied-to-cart-btn {
+    display: none;
+}
+#apply-coupons-to-cart-action-container .fields .button-field-set.edit-mode #edit-coupon-to-be-applied-to-cart-btn,
+#apply-coupons-to-cart-action-container .fields .button-field-set.edit-mode #cancel-edit-coupon-to-be-applied-to-cart-btn {
+    display: inline-block;
+}
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table thead tr th.coupon-heading,
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table thead tr th.coupon-type-heading,
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table thead tr th.coupon-amount-heading,
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table tbody tr td.coupon,
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table tbody tr td.coupon-type,
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table tbody tr td.coupon-amount {
+    width: 30%;
+}
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table thead tr th.controls-heading,
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table tbody tr td.row-controls {
+    width: 10%;
+}
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table tbody tr td.row-controls .edit-coupon {
+    color: green;
+    display: inline-block;
+    cursor: pointer;
+}
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table tbody tr td.row-controls .delete-coupon {
+    color: red;
+    display: inline-block;
+    cursor: pointer;
+}
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table.processing_mode tr td.row-controls .edit-coupon,
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table.processing_mode tr td.row-controls .delete-coupon {
+    visibility: hidden;
+}
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table tr.processing {
+    background-color: #FFEED9;
+}
+
+
+
+
+/*---------------------------------------*/
+/*----- Sales Offer Decline Actions -----*/
+/*---------------------------------------*/
+#decline-offer-actions-meta-box #decline-offer-action-controls {
+    margin-top: 20px;
+}
+#decline-offer-actions-meta-box #decline-offer-action-controls .spinner {
+    display: none;
+    visibility: hidden;
+    float: none;
+}
+#decline-offer-actions-meta-box #decline-offer-action-controls.processing-mode .spinner {
+    display: inline-block;
+    visibility: visible;
+}
+
+
+
+
+/*-------------------------------------*/
+/*----- Timed Email Offer Upgrade -----*/
+/*-------------------------------------*/
+
+#just-in-time-sales-offers-upgrade .inside {
+    padding: 0;
+    margin: 0;
+}
+#just-in-time-sales-offers-upgrade .inside img {
+    max-width: 100%;
+    display: inline-block;
+}

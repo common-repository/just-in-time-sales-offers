@@ -1,0 +1,7 @@
+.jitso-tour-buttons {
+    display: block;
+    text-align: right;
+}
+.jitso-tour-buttons > .button {
+    margin-left: 10px;
+}

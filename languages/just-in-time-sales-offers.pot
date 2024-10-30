@@ -1,0 +1,1909 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Just In Time Sales Offers\n"
+"POT-Creation-Date: 2016-12-05 08:03+0800\n"
+"PO-Revision-Date: 2016-03-25 14:37+0800\n"
+"Last-Translator: \n"
+"Language-Team: Rymera Web Co <support@marketingsuiteplugin.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .hg\n"
+"X-Poedit-SearchPathExcluded-1: .idea\n"
+"X-Poedit-SearchPathExcluded-2: js/lib\n"
+
+#: just-in-time-sales-offers.php:297 just-in-time-sales-offers.php:309
+#: models/class-jitso-ajax-interfaces.php:125
+#: models/class-jitso-ajax-interfaces.php:137
+#: models/class-jitso-bootstrap.php:82 models/class-jitso-bootstrap.php:94
+#: models/class-jitso-constants.php:579 models/class-jitso-constants.php:591
+#: models/class-jitso-i18n.php:55 models/class-jitso-i18n.php:67
+#: models/class-jitso-script-loader.php:76
+#: models/class-jitso-script-loader.php:88
+#: models/help-pointers/class-jitso-initial-guided-tour.php:37
+#: models/help-pointers/class-jitso-initial-guided-tour.php:49
+#: models/help-pointers/class-jitso-offer-entry-guided-tour.php:37
+#: models/help-pointers/class-jitso-offer-entry-guided-tour.php:49
+#: models/offer/class-jitso-offer-accept-action.php:73
+#: models/offer/class-jitso-offer-accept-action.php:85
+#: models/offer/class-jitso-offer-condition.php:64
+#: models/offer/class-jitso-offer-condition.php:76
+#: models/offer/class-jitso-offer-cpt.php:75
+#: models/offer/class-jitso-offer-cpt.php:87
+#: models/offer/class-jitso-offer-decline-action.php:55
+#: models/offer/class-jitso-offer-decline-action.php:67
+#: models/offer/class-jitso-offer-loader.php:55
+#: models/offer/class-jitso-offer-loader.php:67
+#: models/offer/class-jitso-offer-page.php:55
+#: models/offer/class-jitso-offer-page.php:67
+#: models/offer/class-jitso-offer-shortcode.php:55
+#: models/offer/class-jitso-offer-shortcode.php:67
+#: models/offer/class-jitso-offer.php:55 models/offer/class-jitso-offer.php:67
+#: models/plugin-integrations/woocommerce-composite-products/class-jitso-woocommerce-composite-products.php:55
+#: models/plugin-integrations/woocommerce-composite-products/class-jitso-woocommerce-composite-products.php:67
+#: models/plugin-integrations/woocommerce-product-bundles/class-jitso-woocommerce-product-bundles.php:55
+#: models/plugin-integrations/woocommerce-product-bundles/class-jitso-woocommerce-product-bundles.php:67
+#: models/shop/class-jitso-coupon.php:55 models/shop/class-jitso-coupon.php:67
+#: models/shop/class-jitso-product.php:55
+#: models/shop/class-jitso-product.php:67 models/site/class-jitso-site.php:55
+#: models/site/class-jitso-site.php:67
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: just-in-time-sales-offers.php:382
+msgid "Click here to install from WordPress.org repo &rarr;"
+msgstr ""
+
+#: just-in-time-sales-offers.php:384
+msgid "Activate this plugin"
+msgstr ""
+
+#: just-in-time-sales-offers.php:384
+msgid "Click here to activate &rarr;"
+msgstr ""
+
+#: just-in-time-sales-offers.php:388
+msgid ""
+"<b>Just In Time Sales Offers</b> plugin missing dependency.<br/><br/>Please "
+"ensure you have the <a href=\"http://wordpress.org/plugins/woocommerce/\" "
+"target=\"_blank\">WooCommerce</a> plugin installed and activated.<br/>"
+msgstr ""
+
+#: models/class-jitso-ajax-interfaces.php:201
+#: models/class-jitso-ajax-interfaces.php:243
+#: models/class-jitso-ajax-interfaces.php:285
+#: models/class-jitso-ajax-interfaces.php:327
+#: models/class-jitso-ajax-interfaces.php:372
+#: models/class-jitso-ajax-interfaces.php:409
+#: models/class-jitso-ajax-interfaces.php:447
+#: models/class-jitso-ajax-interfaces.php:487
+#: models/class-jitso-ajax-interfaces.php:530
+#: models/class-jitso-ajax-interfaces.php:576
+#: models/class-jitso-ajax-interfaces.php:619
+#: models/class-jitso-ajax-interfaces.php:659
+#: models/class-jitso-ajax-interfaces.php:699
+#: models/class-jitso-ajax-interfaces.php:742
+#: models/class-jitso-ajax-interfaces.php:785
+#: models/class-jitso-ajax-interfaces.php:828
+#: models/class-jitso-ajax-interfaces.php:865
+#: models/class-jitso-ajax-interfaces.php:905
+#: models/class-jitso-ajax-interfaces.php:942
+#: models/help-pointers/class-jitso-initial-guided-tour.php:195
+#: models/help-pointers/class-jitso-offer-entry-guided-tour.php:264
+msgid "Security Check Failed"
+msgstr ""
+
+#: models/class-jitso-ajax-interfaces.php:211
+msgid "Failed to get site pages."
+msgstr ""
+
+#: models/class-jitso-ajax-interfaces.php:228
+#: models/class-jitso-ajax-interfaces.php:312
+msgid "Invalid Ajax Call"
+msgstr ""
+
+#: models/class-jitso-ajax-interfaces.php:253
+msgid "Failed to get coupons."
+msgstr ""
+
+#: models/class-jitso-ajax-interfaces.php:270
+#: models/class-jitso-ajax-interfaces.php:354
+#: models/class-jitso-ajax-interfaces.php:394
+#: models/class-jitso-ajax-interfaces.php:432
+#: models/class-jitso-ajax-interfaces.php:469
+#: models/class-jitso-ajax-interfaces.php:515
+#: models/class-jitso-ajax-interfaces.php:558
+#: models/class-jitso-ajax-interfaces.php:604
+#: models/class-jitso-ajax-interfaces.php:641
+#: models/class-jitso-ajax-interfaces.php:681
+#: models/class-jitso-ajax-interfaces.php:727
+#: models/class-jitso-ajax-interfaces.php:770
+#: models/class-jitso-ajax-interfaces.php:887
+#: models/class-jitso-ajax-interfaces.php:927
+#: models/class-jitso-ajax-interfaces.php:964
+#: models/help-pointers/class-jitso-initial-guided-tour.php:202
+#: models/help-pointers/class-jitso-offer-entry-guided-tour.php:271
+msgid "Invalid AJAX Call"
+msgstr ""
+
+#: models/class-jitso-ajax-interfaces.php:295
+msgid "Failed to get products."
+msgstr ""
+
+#: models/class-jitso-ajax-interfaces.php:337
+msgid "Failed to get product additional info."
+msgstr ""
+
+#: models/class-jitso-ajax-interfaces.php:571
+#: models/offer/class-jitso-offer-decline-action.php:117
+msgid "Invalid Operation"
+msgstr ""
+
+#: models/class-jitso-ajax-interfaces.php:813
+#: models/class-jitso-ajax-interfaces.php:850
+msgid "Invalid AJAX Callback"
+msgstr ""
+
+#: models/class-jitso-bootstrap.php:599
+msgid "Settings"
+msgstr ""
+
+#: models/class-jitso-constants.php:629
+msgid "Sales Offer Pages"
+msgstr ""
+
+#: models/class-jitso-constants.php:636
+msgid "Sales Offer Conditions"
+msgstr ""
+
+#: models/class-jitso-constants.php:643
+msgid "Accept Offer Actions"
+msgstr ""
+
+#: models/class-jitso-constants.php:650
+msgid "Decline Offer Actions"
+msgstr ""
+
+#: models/class-jitso-constants.php:657
+msgid "Premium Add-on"
+msgstr ""
+
+#: models/class-jitso-constants.php:666
+#: views/offer/cpt/sales-offer-pages-meta-box.php:54
+msgid "Page"
+msgstr ""
+
+#: models/class-jitso-constants.php:667
+msgid "Post"
+msgstr ""
+
+#: models/class-jitso-constants.php:668
+#: models/offer/class-jitso-offer-accept-action.php:190
+#: models/offer/class-jitso-offer-condition.php:299
+#: views/offer/cpt/accept-offer-actions-meta-box.php:66
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:115
+msgid "Product"
+msgstr ""
+
+#: models/class-jitso-constants.php:669
+msgid "Product Category"
+msgstr ""
+
+#: models/class-jitso-constants.php:677
+msgid "Product Quantity In The Cart"
+msgstr ""
+
+#: models/class-jitso-constants.php:678
+msgid "Product Category Exist In The Cart"
+msgstr ""
+
+#: models/class-jitso-constants.php:679
+msgid "Customer Logged In Status"
+msgstr ""
+
+#: models/class-jitso-constants.php:680
+msgid "Customer User Role"
+msgstr ""
+
+#: models/class-jitso-constants.php:681
+msgid "Cart Subtotal"
+msgstr ""
+
+#: models/class-jitso-constants.php:682
+msgid "Cart Quantity"
+msgstr ""
+
+#: models/class-jitso-constants.php:688
+msgid "EXACTLY"
+msgstr ""
+
+#: models/class-jitso-constants.php:689
+msgid "ANYTHING EXCEPT"
+msgstr ""
+
+#: models/class-jitso-constants.php:690
+msgid "MORE THAN"
+msgstr ""
+
+#: models/class-jitso-constants.php:691
+msgid "LESS THAN"
+msgstr ""
+
+#: models/class-jitso-constants.php:700
+msgid "Add Products To Cart"
+msgstr ""
+
+#: models/class-jitso-constants.php:701
+msgid "Apply Coupons To Cart"
+msgstr ""
+
+#: models/class-jitso-constants.php:705
+msgid "Do Nothing"
+msgstr ""
+
+#: models/class-jitso-constants.php:706
+msgid "Redirect To a Page"
+msgstr ""
+
+#: models/class-jitso-constants.php:707
+msgid "Redirect To a Product"
+msgstr ""
+
+#: models/class-jitso-constants.php:708
+msgid "Show Another Offer Straight Away"
+msgstr ""
+
+#: models/class-jitso-helper.php:392
+msgid "Coupon Id supplied is invalid or does not exist"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:169
+msgid "Failed to retrieve site pages"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:170
+msgid "Page type field empty"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:171
+msgid "Page field empty"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:172
+msgid "Failed to add new offer page"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:173
+msgid "There are errors on the form"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:174
+msgid "Failed to edit existing offer page"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:175
+msgid "Are you sure to delete this sales offer page?"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:176
+#: views/offer/cpt/sales-offer-pages-meta-box.php:99
+msgid ""
+"This offer is currently not showing on any pages. Add one above to start "
+"showing your offer!"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:177
+msgid "Failed to delete existing offer page"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:188
+msgid "Failed to generate offer condition group markup"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:189
+msgid "Are you sure you want to remove this condition group?"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:190
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:244
+msgid ""
+"No Conditions Set. Click <b>\"Add Condition Group\"</b> and <b>\"Add "
+"Condition\"</b> buttons to add some conditions."
+msgstr ""
+
+#: models/class-jitso-script-loader.php:191
+#: models/class-jitso-script-loader.php:225
+#: models/class-jitso-script-loader.php:242
+msgid "Please fill the form properly"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:192
+msgid "Are you sure you want to remove this condition?"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:193
+#: models/offer/class-jitso-offer-condition.php:162
+msgid ""
+"Empty Condition Group. Click <b>\"Add Condition\"</b> button to add "
+"condition."
+msgstr ""
+
+#: models/class-jitso-script-loader.php:194
+#: models/class-jitso-script-loader.php:219
+msgid "Please select a variation..."
+msgstr ""
+
+#: models/class-jitso-script-loader.php:195
+#: models/offer/class-jitso-offer-condition.php:392
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:159
+msgid "Any Variation"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:196
+#: models/class-jitso-script-loader.php:220
+msgid "Product variations"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:197
+#: models/class-jitso-script-loader.php:221
+msgid "Failed to retrieve product additional data"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:198
+msgid "Please select product"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:199
+msgid "Please select product variation"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:200
+msgid "Please select product quantity condition"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:201
+msgid "Please select product quantity"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:202
+msgid "Failed to generate product quantity in cart entry markup"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:203
+msgid "Are you sure you want to remove this product?"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:204
+#: models/class-jitso-script-loader.php:227
+#: models/offer/class-jitso-offer-accept-action.php:199
+#: models/offer/class-jitso-offer-condition.php:309
+#: views/offer/cpt/accept-offer-actions-meta-box.php:136
+msgid "No products added"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:205
+msgid "Successfully saved sales offer conditions"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:206
+msgid "Failed to save sales offer conditions"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:207
+msgid "Failed to generate new sales offer condition markup"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:218
+msgid "Failed to add new accept offer action"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:222
+msgid "Please select a product to add"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:223
+msgid "Please specify a product quantity to add"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:224
+msgid "Failed to generate product to add entry mark up"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:226
+msgid "Are you sure to delete this product?"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:228
+msgid "Failed to generate coupon to apply entry markup"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:229
+msgid "Are you sure to remove this coupon?"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:230
+#: models/offer/class-jitso-offer-accept-action.php:258
+#: views/offer/cpt/accept-offer-actions-meta-box.php:228
+msgid "No coupons added"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:231
+msgid "Are you sure to delete this accept offer action?"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:232
+msgid ""
+"<p class=\"no-actions\">No action to take. Click <b>\"Add Action\"</b> "
+"button to add one.</p>"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:233
+msgid "Successfully saved accept offer actions"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:234
+msgid "Failed to save accept offer actions"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:235
+msgid "Please select a product variation to add"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:236
+msgid "Please select a coupon to apply"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:237
+msgid "Please select an action to execute"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:243
+msgid "Successfully saved decline offer actions"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:244
+msgid "Failed to save decline offer actions"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:275
+#: models/class-jitso-script-loader.php:299
+msgid "Previous"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:276
+#: models/class-jitso-script-loader.php:300
+msgid "Next"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:277
+#: models/class-jitso-script-loader.php:301
+msgid "Close"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:278
+#: models/class-jitso-script-loader.php:302
+msgid "Start Tour"
+msgstr ""
+
+#: models/class-jitso-script-loader.php:348
+msgid "There was a problem accepting the offer. Please contact the store."
+msgstr ""
+
+#: models/class-jitso-script-loader.php:349
+msgid "There was a problem declining the offer. Please contact the store."
+msgstr ""
+
+#: models/class-jitso-settings.php:36
+#: models/offer/class-jitso-offer-cpt.php:134
+#: models/offer/class-jitso-offer-cpt.php:138
+#: models/offer/class-jitso-offer-cpt.php:150
+msgid "Just In Time Sales Offers"
+msgstr ""
+
+#: models/class-jitso-settings.php:60
+msgid "General"
+msgstr ""
+
+#: models/class-jitso-settings.php:61
+msgid "Decline"
+msgstr ""
+
+#: models/class-jitso-settings.php:62
+msgid "Help"
+msgstr ""
+
+#: models/class-jitso-settings.php:155
+msgid "General Options"
+msgstr ""
+
+#: models/class-jitso-settings.php:190
+msgid "Decline Options"
+msgstr ""
+
+#: models/class-jitso-settings.php:192
+msgid "Options relating to declining offers."
+msgstr ""
+
+#: models/class-jitso-settings.php:197
+msgid "Close button behaviour"
+msgstr ""
+
+#: models/class-jitso-settings.php:199
+msgid ""
+"Specify the behaviour of the close button of the offer popup on the "
+"frontend."
+msgstr ""
+
+#: models/class-jitso-settings.php:203
+msgid "Select behaviour..."
+msgstr ""
+
+#: models/class-jitso-settings.php:205
+msgid "Show close but don't count as decline"
+msgstr ""
+
+#: models/class-jitso-settings.php:206
+msgid "Show close and count as decline"
+msgstr ""
+
+#: models/class-jitso-settings.php:207
+msgid "Hide the close button"
+msgstr ""
+
+#: models/class-jitso-settings.php:234
+msgid "Help Options"
+msgstr ""
+
+#: models/class-jitso-settings.php:248
+msgid "Clean up plugin options on un-installation"
+msgstr ""
+
+#: models/class-jitso-settings.php:250
+msgid ""
+"If checked, removes all plugin options when this plugin is uninstalled."
+msgstr ""
+
+#: models/class-jitso-settings.php:284
+msgid "Knowledge Base"
+msgstr ""
+
+#: models/class-jitso-settings.php:287
+#, php-format
+msgid ""
+"Looking for documentation? Please see our growing <a href=\"%1$s\" target="
+"\"_blank\">Knowledge Base</a>"
+msgstr ""
+
+#: models/class-jitso-settings.php:306
+#: views/offer/cpt/view-just-in-time-sales-offers-upgrade-meta-box.php:3
+msgid "Just-In-Time Sales Offers Premium"
+msgstr ""
+
+#: models/help-pointers/class-jitso-initial-guided-tour.php:71
+msgid ""
+"<h3>Welcome to Just-In-Time Sales Offers!</h3>\n"
+"                                <p>Would you like to go on a guided tour of "
+"the plugin? Takes less than 30 seconds.</p>"
+msgstr ""
+
+#: models/help-pointers/class-jitso-initial-guided-tour.php:80
+#, php-format
+msgid ""
+"<h3>Just-In-Time Sales Offers is made for promoting products in your store "
+"based on what your customers have in their cart currently.</h3>\n"
+"                                <p>Up-sells are offers that get your "
+"customers to buy a higher priced item. Eg. If they have a Big Mac in their "
+"cart, you might offer them a meal for a slight discount than if they were "
+"to purchase the Big Mac, Fries and Coke separately.</p>\n"
+"                                <p>Cross-sells are for promoting related "
+"items. Eg. If they have a laptop in their cart, you might offer a Bluetooth "
+"travel mouse for 30% off the retail price if they add it to their cart now."
+"</p>\n"
+"                                <p>Both strategies are great for increasing "
+"the average size of your store's orders but work best under specific "
+"scenarios.</p>"
+msgstr ""
+
+#: models/help-pointers/class-jitso-initial-guided-tour.php:91
+msgid ""
+"<h3>This is the settings area where you can configure important options "
+"related to the performance of your up-sell and cross-sell popups.</h3>\n"
+"                                <p>You can come back here anytime after the "
+"tour to configure all the settings related to your sales offer popups.</p>"
+msgstr ""
+
+#: models/help-pointers/class-jitso-initial-guided-tour.php:100
+#, php-format
+msgid ""
+"<h3>This is the Offers list which shows you what Offers you currently have "
+"running on your store.</h3>\n"
+"                                         <p>Offers in Draft mode are only "
+"visible to admins and store managers. Use the draft mode to edit your Offer "
+"like you would a product that isn't quite ready put on your store.</p>\n"
+"                                         <p>This concludes the tour. Click "
+"on the button below to add your first offer:</p>\n"
+"                                         <p><a id=\"jitso-add-first-offer\" "
+"href=\"%1$s\" class=\"button button-primary\">Add My First Offer</a></p>"
+msgstr ""
+
+#: models/help-pointers/class-jitso-offer-entry-guided-tour.php:67
+msgid ""
+"<h3>Congratulations, you just added your first offer!</h3>\n"
+"                                <p>Would you like to learn how to configure "
+"it? It takes less than a minute and you'll then know exactly how to setup "
+"your first offer!</p>"
+msgstr ""
+
+#: models/help-pointers/class-jitso-offer-entry-guided-tour.php:77
+msgid ""
+"<h3>First, give your Offer a name.</h3>\n"
+"                                <p>This is used internally for you to "
+"identify the Offer in the system, so make it something that describes what "
+"the Offer is all about.</p>"
+msgstr ""
+
+#: models/help-pointers/class-jitso-offer-entry-guided-tour.php:87
+msgid ""
+"<h3>Content editor</h3>\n"
+"                                <p>Use the content editor to edit what "
+"shows in your Offer popup.</p>\n"
+"                                <p>Treat this like you would a product or "
+"blog post. You can use headings, insert images, shortcodes, whatever you "
+"like!</p>\n"
+"                                <p>We recommend you keep it short and "
+"snappy as this all about grabbing their attention and getting them to "
+"accept the offer.</p>"
+msgstr ""
+
+#: models/help-pointers/class-jitso-offer-entry-guided-tour.php:99
+msgid ""
+"<h3>Sales Offer Pages</h3>\n"
+"                                <p>Next you need to tell the plugin what "
+"page you want your offer to show on.</p>\n"
+"                                <p>We've already loaded the Cart page, but "
+"feel free to remove it or add extra pages where you think this sales offer "
+"belongs.</p>\n"
+"                                <p>Even if you have it configured for a "
+"certain page, it will only show if the Offer conditions are met.</p>\n"
+"                                <p>Hit next to hear more about Offer "
+"Conditions!</p>"
+msgstr ""
+
+#: models/help-pointers/class-jitso-offer-entry-guided-tour.php:112
+msgid ""
+"<h3>Sales Offer Conditions</h3>\n"
+"                                <p>Here's the exciting part! You get to "
+"decide under what conditions your Offer will show to customers.</p>\n"
+"                                <p>There are no conditions set up yet, so "
+"it will show to everybody. To get started, click on Add Condition Group and "
+"then click on Add Condition to add your first condition.</p>\n"
+"                                <p>Conditions can be grouped together to "
+"use the one Offer for multiple scenarios. It gets really powerful in the "
+"Premium add-on where you can add loads of different condition types.</p>"
+msgstr ""
+
+#: models/help-pointers/class-jitso-offer-entry-guided-tour.php:124
+msgid ""
+"<h3>Accept Offer Actions</h3>\n"
+"                                <p>If the customer accepts your Offer, you "
+"can have the Offer automatically apply Products and Coupons to the cart for "
+"them.</p>\n"
+"                                <p>Likewise, you can remove certain "
+"Products and Coupons should they not be included in the Offer.</p>\n"
+"                                <p>This will make the whole Offer process "
+"seem completely smooth and painless from the customer's perspective. They "
+"don't have to lift a finger!</p>"
+msgstr ""
+
+#: models/help-pointers/class-jitso-offer-entry-guided-tour.php:140
+#: models/help-pointers/class-jitso-offer-entry-guided-tour.php:154
+msgid ""
+"<h3>Decline Offer Actions</h3>\n"
+"                                <p>If the customer declines your Offer, you "
+"can also have the plugin perform certain actions.</p>\n"
+"                                <p>In the Premium version, you can redirect "
+"them to a specific page or product or even show them another Offer instead."
+"</p>"
+msgstr ""
+
+#: models/help-pointers/class-jitso-offer-entry-guided-tour.php:166
+#, php-format
+msgid ""
+"<h3>Premium Upsell</h3>\n"
+"                                <p>This concludes the guide. You are now "
+"ready to setup your first offer!</p>\n"
+"                                <p>Want to unlock all of the features you "
+"see here? The Premium add-on will unlock all this and more and we're adding "
+"new features all the time!</p>\n"
+"                                <p><a href=\"%1$s\" target=\"_blank\">Check "
+"out the Premium version now &rarr;</a></p>"
+msgstr ""
+
+#: models/offer/class-jitso-offer-accept-action.php:137
+#: models/offer/class-jitso-offer-accept-action.php:298
+#: models/offer/class-jitso-offer-accept-action.php:378
+#: models/offer/class-jitso-offer-accept-action.php:430
+#: models/offer/class-jitso-offer-condition.php:127
+#: models/offer/class-jitso-offer-condition.php:219
+#: models/offer/class-jitso-offer-condition.php:349
+#: models/offer/class-jitso-offer-condition.php:447
+#: models/offer/class-jitso-offer-page.php:117
+#: models/offer/class-jitso-offer-page.php:219
+#: models/offer/class-jitso-offer-page.php:309
+msgid "Invalid Operation."
+msgstr ""
+
+#: models/offer/class-jitso-offer-accept-action.php:140
+#: models/offer/class-jitso-offer-accept-action.php:301
+#: models/offer/class-jitso-offer-accept-action.php:381
+#: models/offer/class-jitso-offer-accept-action.php:433
+#: models/offer/class-jitso-offer-condition.php:130
+#: models/offer/class-jitso-offer-condition.php:222
+#: models/offer/class-jitso-offer-condition.php:352
+#: models/offer/class-jitso-offer-condition.php:450
+#: models/offer/class-jitso-offer-page.php:120
+#: models/offer/class-jitso-offer-page.php:222
+#: models/offer/class-jitso-offer-page.php:312
+msgid "Authorization Failed."
+msgstr ""
+
+#: models/offer/class-jitso-offer-accept-action.php:150
+#: models/offer/class-jitso-offer-accept-action.php:217
+#: views/offer/cpt/accept-offer-actions-meta-box.php:26
+#: views/offer/cpt/accept-offer-actions-meta-box.php:154
+msgid "Remove Action"
+msgstr ""
+
+#: models/offer/class-jitso-offer-accept-action.php:161
+#: views/offer/cpt/accept-offer-actions-meta-box.php:37
+msgid "Add product to cart"
+msgstr ""
+
+#: models/offer/class-jitso-offer-accept-action.php:162
+#: models/offer/class-jitso-offer-condition.php:263
+#: views/offer/cpt/accept-offer-actions-meta-box.php:38
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:79
+msgid "Please select a product..."
+msgstr ""
+
+#: models/offer/class-jitso-offer-accept-action.php:169
+#: models/offer/class-jitso-offer-accept-action.php:191
+#: models/offer/class-jitso-offer-condition.php:278
+#: models/offer/class-jitso-offer-condition.php:301
+#: views/offer/cpt/accept-offer-actions-meta-box.php:45
+#: views/offer/cpt/accept-offer-actions-meta-box.php:67
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:94
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:117
+msgid "Quantity"
+msgstr ""
+
+#: models/offer/class-jitso-offer-accept-action.php:176
+#: models/offer/class-jitso-offer-accept-action.php:234
+#: models/offer/class-jitso-offer-condition.php:188
+#: models/offer/class-jitso-offer-condition.php:285
+#: views/offer/cpt/accept-offer-actions-meta-box.php:52
+#: views/offer/cpt/accept-offer-actions-meta-box.php:171
+#: views/offer/cpt/accept-offer-actions-meta-box.php:281
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:101
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:228
+#: views/offer/cpt/sales-offer-pages-meta-box.php:44
+msgid "Add"
+msgstr ""
+
+#: models/offer/class-jitso-offer-accept-action.php:177
+#: models/offer/class-jitso-offer-accept-action.php:235
+#: models/offer/class-jitso-offer-condition.php:286
+#: views/offer/cpt/accept-offer-actions-meta-box.php:53
+#: views/offer/cpt/accept-offer-actions-meta-box.php:172
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:102
+msgid "Edit"
+msgstr ""
+
+#: models/offer/class-jitso-offer-accept-action.php:178
+#: models/offer/class-jitso-offer-accept-action.php:236
+#: models/offer/class-jitso-offer-condition.php:189
+#: models/offer/class-jitso-offer-condition.php:287
+#: views/offer/cpt/accept-offer-actions-meta-box.php:54
+#: views/offer/cpt/accept-offer-actions-meta-box.php:173
+#: views/offer/cpt/accept-offer-actions-meta-box.php:282
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:103
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:229
+#: views/offer/cpt/sales-offer-pages-meta-box.php:42
+msgid "Cancel"
+msgstr ""
+
+#: models/offer/class-jitso-offer-accept-action.php:224
+#: views/offer/cpt/accept-offer-actions-meta-box.php:161
+msgid "Apply coupon to cart"
+msgstr ""
+
+#: models/offer/class-jitso-offer-accept-action.php:225
+#: views/offer/cpt/accept-offer-actions-meta-box.php:162
+msgid "Please select a coupon..."
+msgstr ""
+
+#: models/offer/class-jitso-offer-accept-action.php:248
+#: views/offer/cpt/accept-offer-actions-meta-box.php:185
+msgid "Coupon"
+msgstr ""
+
+#: models/offer/class-jitso-offer-accept-action.php:249
+#: views/offer/cpt/accept-offer-actions-meta-box.php:186
+msgid "Coupon Type"
+msgstr ""
+
+#: models/offer/class-jitso-offer-accept-action.php:250
+#: views/offer/cpt/accept-offer-actions-meta-box.php:187
+msgid "Coupon Amount"
+msgstr ""
+
+#: models/offer/class-jitso-offer-accept-action.php:275
+msgid "An unknown error occur when retrieving new accept offer action markup."
+msgstr ""
+
+#: models/offer/class-jitso-offer-accept-action.php:489
+msgid "Thanks, the offer was accepted."
+msgstr ""
+
+#: models/offer/class-jitso-offer-accept-action.php:623
+#: models/offer/class-jitso-offer-accept-action.php:626
+msgid "Failed to record offer accept"
+msgstr ""
+
+#: models/offer/class-jitso-offer-condition.php:144
+#: models/offer/class-jitso-offer-condition.php:238
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:26
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:54
+msgid "AND"
+msgstr ""
+
+#: models/offer/class-jitso-offer-condition.php:145
+#: models/offer/class-jitso-offer-condition.php:239
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:27
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:55
+msgid "OR"
+msgstr ""
+
+#: models/offer/class-jitso-offer-condition.php:158
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:40
+msgid "Remove Condition Group"
+msgstr ""
+
+#: models/offer/class-jitso-offer-condition.php:187
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:227
+msgid "Add Condition"
+msgstr ""
+
+#: models/offer/class-jitso-offer-condition.php:252
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:68
+msgid "Remove Condition"
+msgstr ""
+
+#: models/offer/class-jitso-offer-condition.php:262
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:78
+msgid "Product In Cart"
+msgstr ""
+
+#: models/offer/class-jitso-offer-condition.php:269
+#: models/offer/class-jitso-offer-condition.php:300
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:85
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:116
+msgid "Condition"
+msgstr ""
+
+#: models/offer/class-jitso-offer-condition.php:328
+msgid "An unknown error occur when generating offer condition markup."
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:135
+#: models/offer/class-jitso-offer-cpt.php:136
+msgid "Just In Time Sales Offer"
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:137
+msgid "Parent Just In Time Sales Offer"
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:139
+msgid "View Just In Time Sales Offer"
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:140
+msgid "Add Just In Time Sales Offer"
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:141
+msgid "New Just In Time Sales Offer"
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:142
+msgid "Edit Just In Time Sales Offer"
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:143
+msgid "Update Just In Time Sales Offer"
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:144
+msgid "Search Just In Time Sales Offers"
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:145
+msgid "No Just In Time Sales Offer found"
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:146
+msgid "No Just In Time Sales Offers found in Trash"
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:151
+msgid "Just In Time Sales Offer Information Pages"
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:193
+msgid "+ Show available template shortcodes"
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:197
+msgid "- Hide available template shortcodes"
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:204
+msgid "Shortcode for adding \"Accept Offer\" button"
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:208
+msgid "Shortcode for adding \"Decline Offer\" button"
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:260
+msgid "Catchy Sales Offer Heading"
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:261
+msgid "This is some small text specifically about the sales offer"
+msgstr ""
+
+#: models/offer/class-jitso-offer-cpt.php:492
+msgid "Appears On"
+msgstr ""
+
+#: models/offer/class-jitso-offer-decline-action.php:120
+msgid "Authorization Failed"
+msgstr ""
+
+#: models/offer/class-jitso-offer-decline-action.php:180
+msgid "Thanks, the offer was declined."
+msgstr ""
+
+#: models/offer/class-jitso-offer-decline-action.php:226
+#: models/offer/class-jitso-offer-decline-action.php:229
+msgid "Failed to record offer decline"
+msgstr ""
+
+#: models/offer/class-jitso-offer-loader.php:354
+#: models/offer/class-jitso-offer-loader.php:357
+msgid "Failed to record offer view"
+msgstr ""
+
+#: models/offer/class-jitso-offer-page.php:140
+msgid "Page already added on the list."
+msgstr ""
+
+#: models/offer/class-jitso-offer-page.php:196
+msgid "An unknown error occur when adding new sales offer page."
+msgstr ""
+
+#: models/offer/class-jitso-offer-page.php:230
+msgid ""
+"Sales offer page you are trying to edit does not exist on the list of pages "
+"that this offer is to be shown."
+msgstr ""
+
+#: models/offer/class-jitso-offer-page.php:243
+msgid "Edited page duplicates with an existing page on the list"
+msgstr ""
+
+#: models/offer/class-jitso-offer-page.php:285
+msgid "An unknown error occur when editing sales offer page."
+msgstr ""
+
+#: models/offer/class-jitso-offer-page.php:320
+msgid ""
+"Sales offer page you are trying to delete does not exist on the list of "
+"pages that this offer is to be shown."
+msgstr ""
+
+#: models/offer/class-jitso-offer-shortcode.php:125
+msgid "Accept Offer"
+msgstr ""
+
+#: models/offer/class-jitso-offer-shortcode.php:151
+msgid "Decline Offer"
+msgstr ""
+
+#: models/plugin-integrations/woocommerce-composite-products/class-jitso-woocommerce-composite-products.php:308
+#, php-format
+msgid ""
+"Please provide default selected attributes for the composite component "
+"variable product %1$s"
+msgstr ""
+
+#: models/plugin-integrations/woocommerce-product-bundles/class-jitso-woocommerce-product-bundles.php:318
+#: models/plugin-integrations/woocommerce-product-bundles/class-jitso-woocommerce-product-bundles.php:344
+#: models/plugin-integrations/woocommerce-product-bundles/class-jitso-woocommerce-product-bundles.php:347
+#, php-format
+msgid ""
+"Please provide default selected attributes for the bundle component "
+"variable product %1$s"
+msgstr ""
+
+#: models/shop/class-jitso-coupon.php:115
+msgid "Function \"get_coupons\" requires an $args argument in array format."
+msgstr ""
+
+#: models/shop/class-jitso-coupon.php:130
+#: models/shop/class-jitso-product.php:130
+msgid "--Select Product--"
+msgstr ""
+
+#: models/shop/class-jitso-coupon.php:168
+#: models/shop/class-jitso-product.php:153
+#: models/site/class-jitso-site.php:160
+msgid "Unsupported \"return_format\" in the $args argument."
+msgstr ""
+
+#: models/shop/class-jitso-coupon.php:173
+#: models/shop/class-jitso-product.php:158
+#: models/site/class-jitso-site.php:165
+msgid "Missing \"return_format\" key in the $args argument."
+msgstr ""
+
+#: models/shop/class-jitso-product.php:115
+msgid "Function \"get_products\" requires an $args argument in array format."
+msgstr ""
+
+#: models/site/class-jitso-site.php:115
+msgid ""
+"Function \"get_site_pages\" requires an $args argument in array format."
+msgstr ""
+
+#: models/site/class-jitso-site.php:127
+msgid "--Select Page--"
+msgstr ""
+
+#: tests/woocommerce/tests/framework/factories/class-wc-unit-test-factory-for-webhook-delivery.php:22
+msgid "WooCommerce"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/account/functions.php:16
+msgid "Dashboard"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/account/functions.php:17
+msgid "Orders"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/account/functions.php:18
+msgid "Addresses"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/account/functions.php:19
+msgid "Payment Methods"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/account/functions.php:20
+msgid "Account Details"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/account/functions.php:21
+msgid "Logout"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/account/functions.php:32
+msgid "Order"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/account/functions.php:33
+msgid "Date"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/account/functions.php:34
+msgid "Status"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/account/functions.php:35
+msgid "Total"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/account/functions.php:47
+msgid "File"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/account/functions.php:48
+msgid "Remaining"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/account/functions.php:49
+msgid "Expires"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/coupon/functions.php:18
+msgid "Cart Discount"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/coupon/functions.php:19
+msgid "Cart % Discount"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/coupon/functions.php:20
+msgid "Product Discount"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/coupon/functions.php:21
+msgid "Product % Discount"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/order/functions.php:18
+#: tests/woocommerce/tests/unit-tests/order/functions.php:48
+#: tests/woocommerce/tests/unit-tests/order/functions.php:49
+msgid "Pending Payment"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/order/functions.php:19
+msgid "Processing"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/order/functions.php:20
+msgid "On Hold"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/order/functions.php:21
+msgid "Completed"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/order/functions.php:22
+msgid "Cancelled"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/order/functions.php:23
+msgid "Refunded"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/order/functions.php:24
+msgid "Failed"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/product/functions.php:143
+msgid "Simple product"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/product/functions.php:144
+msgid "Grouped product"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/product/functions.php:145
+msgid "External/Affiliate product"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/product/functions.php:146
+msgid "Variable product"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/product/product-simple.php:19
+#: tests/woocommerce/tests/unit-tests/product/product-simple.php:37
+msgid "Add to cart"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/product/product-simple.php:22
+msgid "Read More"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:28
+msgid "United Arab Emirates dirham"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:29
+msgid "Afghan afghani"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:30
+msgid "Albanian lek"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:31
+msgid "Armenian dram"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:32
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:33
+msgid "Angolan kwanza"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:34
+msgid "Argentine peso"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:35
+msgid "Australian dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:36
+msgid "Aruban florin"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:37
+msgid "Azerbaijani manat"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:38
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:39
+msgid "Barbadian dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:40
+msgid "Bangladeshi taka"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:41
+msgid "Bulgarian lev"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:42
+msgid "Bahraini dinar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:43
+msgid "Burundian franc"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:44
+msgid "Bermudian dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:45
+msgid "Brunei dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:46
+msgid "Bolivian boliviano"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:47
+msgid "Brazilian real"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:48
+msgid "Bahamian dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:49
+msgid "Bitcoin"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:50
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:51
+msgid "Botswana pula"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:52
+msgid "Belarusian ruble"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:53
+msgid "Belize dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:54
+msgid "Canadian dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:55
+msgid "Congolese franc"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:56
+msgid "Swiss franc"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:57
+msgid "Chilean peso"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:58
+msgid "Chinese yuan"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:59
+msgid "Colombian peso"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:60
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:61
+msgid "Cuban convertible peso"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:62
+msgid "Cuban peso"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:63
+msgid "Cape Verdean escudo"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:64
+msgid "Czech koruna"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:65
+msgid "Djiboutian franc"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:66
+msgid "Danish krone"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:67
+msgid "Dominican peso"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:68
+msgid "Algerian dinar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:69
+msgid "Egyptian pound"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:70
+msgid "Eritrean nakfa"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:71
+msgid "Ethiopian birr"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:72
+msgid "Euro"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:73
+msgid "Fijian dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:74
+msgid "Falkland Islands pound"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:75
+msgid "Pound sterling"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:76
+msgid "Georgian lari"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:77
+msgid "Guernsey pound"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:78
+msgid "Ghana cedi"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:79
+msgid "Gibraltar pound"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:80
+msgid "Gambian dalasi"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:81
+msgid "Guinean franc"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:82
+msgid "Guatemalan quetzal"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:83
+msgid "Guyanese dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:84
+msgid "Hong Kong dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:85
+msgid "Honduran lempira"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:86
+msgid "Croatian kuna"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:87
+msgid "Haitian gourde"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:88
+msgid "Hungarian forint"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:89
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:90
+msgid "Israeli new shekel"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:91
+msgid "Manx pound"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:92
+msgid "Indian rupee"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:93
+msgid "Iraqi dinar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:94
+msgid "Iranian rial"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:95
+msgid "Icelandic kr&oacute;na"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:96
+msgid "Jersey pound"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:97
+msgid "Jamaican dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:98
+msgid "Jordanian dinar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:99
+msgid "Japanese yen"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:100
+msgid "Kenyan shilling"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:101
+msgid "Kyrgyzstani som"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:102
+msgid "Cambodian riel"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:103
+msgid "Comorian franc"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:104
+msgid "North Korean won"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:105
+msgid "South Korean won"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:106
+msgid "Kuwaiti dinar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:107
+msgid "Cayman Islands dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:108
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:109
+msgid "Lao kip"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:110
+msgid "Lebanese pound"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:111
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:112
+msgid "Liberian dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:113
+msgid "Lesotho loti"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:114
+msgid "Libyan dinar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:115
+msgid "Moroccan dirham"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:116
+msgid "Moldovan leu"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:117
+msgid "Malagasy ariary"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:118
+msgid "Macedonian denar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:119
+msgid "Burmese kyat"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:120
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:121
+msgid "Macanese pataca"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:122
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:123
+msgid "Mauritian rupee"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:124
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:125
+msgid "Malawian kwacha"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:126
+msgid "Mexican peso"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:127
+msgid "Malaysian ringgit"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:128
+msgid "Mozambican metical"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:129
+msgid "Namibian dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:130
+msgid "Nigerian naira"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:131
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:132
+msgid "Norwegian krone"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:133
+msgid "Nepalese rupee"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:134
+msgid "New Zealand dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:135
+msgid "Omani rial"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:136
+msgid "Panamanian balboa"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:137
+msgid "Peruvian nuevo sol"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:138
+msgid "Papua New Guinean kina"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:139
+msgid "Philippine peso"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:140
+msgid "Pakistani rupee"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:141
+msgid "Polish z&#x142;oty"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:142
+msgid "Transnistrian ruble"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:143
+msgid "Paraguayan guaran&iacute;"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:144
+msgid "Qatari riyal"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:145
+msgid "Romanian leu"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:146
+msgid "Serbian dinar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:147
+msgid "Russian ruble"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:148
+msgid "Rwandan franc"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:149
+msgid "Saudi riyal"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:150
+msgid "Solomon Islands dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:151
+msgid "Seychellois rupee"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:152
+msgid "Sudanese pound"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:153
+msgid "Swedish krona"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:154
+msgid "Singapore dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:155
+msgid "Saint Helena pound"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:156
+msgid "Sierra Leonean leone"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:157
+msgid "Somali shilling"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:158
+msgid "Surinamese dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:159
+msgid "South Sudanese pound"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:160
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:161
+msgid "Syrian pound"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:162
+msgid "Swazi lilangeni"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:163
+msgid "Thai baht"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:164
+msgid "Tajikistani somoni"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:165
+msgid "Turkmenistan manat"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:166
+msgid "Tunisian dinar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:167
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:168
+msgid "Turkish lira"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:169
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:170
+msgid "New Taiwan dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:171
+msgid "Tanzanian shilling"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:172
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:173
+msgid "Ugandan shilling"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:174
+msgid "United States dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:175
+msgid "Uruguayan peso"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:176
+msgid "Uzbekistani som"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:177
+msgid "Venezuelan bol&iacute;var"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:178
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:179
+msgid "Vanuatu vatu"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:180
+msgid "Samoan t&#x101;l&#x101;"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:181
+msgid "Central African CFA franc"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:182
+msgid "East Caribbean dollar"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:183
+msgid "West African CFA franc"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:184
+msgid "CFP franc"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:185
+msgid "Yemeni rial"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:186
+msgid "South African rand"
+msgstr ""
+
+#: tests/woocommerce/tests/unit-tests/util/core-functions.php:187
+msgid "Zambian kwacha"
+msgstr ""
+
+#: views/offer/cpt/accept-offer-actions-meta-box.php:11
+msgid "If offer is accepted do the following: "
+msgstr ""
+
+#: views/offer/cpt/accept-offer-actions-meta-box.php:250
+msgid "No action to take. Click <b>\"Add Action\"</b> button to add one."
+msgstr ""
+
+#: views/offer/cpt/accept-offer-actions-meta-box.php:260
+msgid "Add Action"
+msgstr ""
+
+#: views/offer/cpt/accept-offer-actions-meta-box.php:261
+#: views/offer/cpt/decline-offer-actions-meta-box.php:39
+msgid "Save Actions"
+msgstr ""
+
+#: views/offer/cpt/accept-offer-actions-meta-box.php:264
+msgid "--Select Action--"
+msgstr ""
+
+#: views/offer/cpt/accept-offer-actions-meta-box.php:275
+msgid "Remove Products From Cart (PREMIUM)"
+msgstr ""
+
+#: views/offer/cpt/accept-offer-actions-meta-box.php:276
+msgid "Remove Coupons From Cart (PREMIUM)"
+msgstr ""
+
+#: views/offer/cpt/decline-offer-actions-meta-box.php:10
+msgid "If offer is declined close the popup & do the following: "
+msgstr ""
+
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:11
+msgid "Show this sales offer if conditions below are met"
+msgstr ""
+
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:254
+msgid "Add Condition Group"
+msgstr ""
+
+#: views/offer/cpt/sales-offer-conditions-meta-box.php:266
+msgid "Save Conditions"
+msgstr ""
+
+#: views/offer/cpt/sales-offer-pages-meta-box.php:14
+msgid "Show this sales offer on"
+msgstr ""
+
+#: views/offer/cpt/sales-offer-pages-meta-box.php:20
+msgid "--Select Type--"
+msgstr ""
+
+#: views/offer/cpt/sales-offer-pages-meta-box.php:43
+msgid "Update"
+msgstr ""
+
+#: views/offer/cpt/sales-offer-pages-meta-box.php:53
+msgid "Type"
+msgstr ""
